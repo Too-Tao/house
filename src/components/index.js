@@ -56,7 +56,7 @@ const TabNavigator = createBottomTabNavigator(
         getTabBarIcon(navigation, focused, tintColor),
     }),
     tabBarOptions: {
-      activeTintColor: '#495057',
+      activeTintColor: '#5DD5C8',
       inactiveTintColor: '#CED4DA',
     },
   },

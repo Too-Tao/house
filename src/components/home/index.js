@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import Header from './component/header';
+import Header from './components/header';
 
 export default class HomeScreen extends Component {
   render() {
