@@ -3,6 +3,7 @@ import {View, StyleSheet} from 'react-native';
 import Header from './components/header';
 import Gongge from './components/gongge';
 import Ad from './components/ad';
+import List from './components/list';
 
 export default class HomeScreen extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class HomeScreen extends Component {
         <Header />
         <Gongge />
         <Ad />
+        <List />
       </View>
     );
   }
