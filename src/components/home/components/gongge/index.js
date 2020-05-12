@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
   container: {
     display: 'flex',
     flexDirection: 'row',
-    height: 160,
+    height: 180,
     marginTop: 10,
     marginRight: 15,
     marginLeft: 15,
@@ -86,5 +86,6 @@ const styles = StyleSheet.create({
     marginTop: 5,
     fontSize: 12,
     textAlign: 'center',
+    fontWeight: 'bold',
   },
 });
