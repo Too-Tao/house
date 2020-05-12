@@ -1,33 +1,5 @@
 import React, {Component} from 'react';
-import {View, StyleSheet, Text, Dimensions, Image} from 'react-native';
-
-const width = Dimensions.get('window').width;
-const height = Dimensions.get('window').height;
-const selfWidth = 0.9 * width;
-const iconArr = [
-  require('./images/全部房源.png'),
-  require('./images/二手房.png'),
-  require('./images/租房.png'),
-  require('./images/商业办公.png'),
-  require('./images/公寓酒店.png'),
-  require('./images/找小区.png'),
-  require('./images/即将开盘.png'),
-  require('./images/近期预售.png'),
-  require('./images/小面积.png'),
-  require('./images/专车接送.png'),
-];
-const iconTitle = [
-  '全部房源',
-  '二手房',
-  '租房',
-  '商业办公',
-  '公寓酒店',
-  '找小区',
-  '即将开盘',
-  '近期预售',
-  '小面积',
-  '专车接送',
-];
+import {View, StyleSheet, Text, Image} from 'react-native';
 
 const gonggeItem = [
   [require('./images/全部房源.png'), '全部房源'],
