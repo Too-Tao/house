@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, StyleSheet, Text, FlatList, Image} from 'react-native';
+import {View, StyleSheet, FlatList} from 'react-native';
 import {Tab} from 'beeshell';
 import ListItem from './listitem';
 
@@ -91,7 +91,8 @@ export default class List extends Component {
       {value: 6, label: '公寓酒店'},
     ];
     return (
-      <View style={{flex:1}}>
+      // eslint-disable-next-line react-native/no-inline-styles
+      <View style={{flex: 1}}>
         <Tab
           style={styles.tabStyle}
           value={value}
